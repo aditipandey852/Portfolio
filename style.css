@@ -1,0 +1,287 @@
+body{
+  background-color: #ebe1e1;
+  /* opacity: 0.0px;
+  background-size: cover; */
+}
+
+.row-justify-content-centre{
+  margin-top: 28px;
+  margin-left: 100px;
+  display: flex;
+  height: 366px;
+  width: 1140px;
+  /* border: 5px solid black; */
+}
+
+.hero{
+  width: 300px;
+  height: 300px;
+  box-shadow: 7.5pt 10px 18.75pt #525252;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+.page-title{
+  color: #02027b;
+  text-align: center;
+  /* margin-top: 0; */
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.page-subtitle{
+  text-align: center;
+  color: #161616;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.bio-block{
+  text-align: center;
+  width: 95%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  color: #494949;
+  font-size: 1.3rem;
+  font-weight: 400;
+  display: block;
+}
+
+hr{
+  width: 40%;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  border-top-color: #b52580;
+  border-top-style: dotted;
+  border-top-width: 0.4rem;
+}
+
+#portfolio{
+  height: 48px;
+  /* width: 1972px; */
+  text-align: center;
+  font-size: 2em;
+  color: #02027b;
+  font-weight: 600;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.under-portfolio-projects{
+  width: 1325px;
+  height: 570px;
+  /* border: 5px solid black; */
+  display: flex;
+}
+
+.card-clone{
+  text-align: center;
+}
+.project-one{
+  background-image: url("amazon-clone.png");
+  box-shadow: 7.5pt 10px 18.75pt #525252;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 336px;
+  border-radius: 10%;
+}
+
+.project-two{
+  background-image: url("myntra\ clone.jpg");
+  box-shadow: 7.5pt 10px 18.75pt #525252;
+  background-repeat: no-repeat;
+  width: 419px;
+  height: 336px;
+  margin-left: 15px;
+  border-radius: 10%;
+  /* border: 2px solid green; */
+}
+
+.project-three{
+  background-image: url("github.png");
+  background-size: cover;
+  box-shadow: 7.5pt 10px 18.75pt #525252;
+  background-repeat: no-repeat;
+  width: 419px;
+  height: 336px;
+  margin-left: 15px;
+  border-radius: 10%;
+ /* border: 2px solid green;*/
+}
+
+.ama{
+  color: black/*#b52580*/;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 380px;
+  text-align: center;
+}
+
+.amaclone{
+  color: black /*#b52580*/;
+  text-align: center;
+}
+
+.amaa{
+  color: black;
+  text-align: center;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+}
+
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.btn:hover{
+  font-size: 1.1rem;
+  font-weight:bolder;
+  border-radius: 2rem;
+}
+
+.skill-summary{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #494949;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 1206px;
+  height: 35.89px;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.keyword-magnet{
+  text-shadow: none;
+  padding-top: 0.15em;
+  padding-right: 0.5em;
+  padding-bottom: 0.15em;
+  padding-left: 0.1em;
+  margin-top: 0.1em;
+  margin-right: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 0.1em;
+  line-height: 1.1em;
+  font-size: .85em;
+  color: #2c2c2c;
+  border-radius: 0.0625in;
+  border-top-color: #2c2c2c;
+  border-right-color: #2c2c2c;
+  border-bottom-color: #2c2c2c;
+  border-left-color: #2c2c2c;
+  border-top-style: solid;
+  border-top-width: 0.017708333in;
+  border-bottom-style: solid;
+  border-right-width: .017708333in;
+  border-bottom-width: .017708333in;
+  border-right-style: solid;
+  border-left-width: .017708333in;
+  border-left-style: solid;
+  text-align: center;
+}
+
+.list{
+  margin-left: 450px;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul li::before{
+  content: "★";
+}
+
+.csjmu{
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #010101;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.bca{
+  text-align: center;
+  margin-top: 1.2rem;
+  font-size: 1.1em;
+  font-weight: 600s;
+  color: #595959;
+}
+
+.csjmuweb{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0027d2;
+  background-color: transparent;
+  /* text-decoration:none; */
+}
+
+a#vcsjm{
+  text-decoration: none;
+}
+
+.mail{
+  text-align: center;
+}
+
+.person-mail{
+  font-weight: bold;
+  color: #0027d2;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.linkedin{
+  text-align: center;
+}
+
+.person-linkedin{
+  font-weight: bold;
+  color: #0027d2;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.copyright-text{
+  text-align: center;
+  opacity: 0.5;
+}
+
